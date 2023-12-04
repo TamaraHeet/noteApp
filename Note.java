@@ -23,9 +23,9 @@ public class Note {
         this.content = content;
     }
 
-    // New method to add a new note
-    public static Note addNewNote(String title, String content) {
-        return new Note(title, content);
+    // New method to edit the content of a note
+    public void editContent(String newContent) {
+        this.content = newContent;
     }
 
 }
