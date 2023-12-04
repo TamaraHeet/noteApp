@@ -24,7 +24,7 @@ public class Note {
     }
 
     // New method to edit the content of a note
-    // This method was created by user1
+    // This method was created by user1 and user2
     public void editContent(String newContent) {
         this.content = newContent;
     }
